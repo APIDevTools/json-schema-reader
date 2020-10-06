@@ -138,19 +138,19 @@ This is an async function that reads your JSON Schema from a file path or URL. I
 #### `location` (string or [URL object](https://developer.mozilla.org/en-US/docs/Web/API/URL))
 This is the location of the root file of your JSON Schema. When running in Node.js, it can be an absolute or relative filesystem path, or a URL. When running in a web browser, it can be an absolute or relative URL.
 
-#### `options` (_optional_, [`Options` object](https://apitools.dev/json-schema-reader/docs/options))
+#### `options` (_optional_, [`Options` object](docs/options.md))
 You can pass an [`Options` object](doc/options) as the second parameter to customize the behavior of the `readJsonSchema()` function.
 
-#### Return value ([`JsonSchema` object](https://apitools.dev/json-schema-reader/docs/json-schema))
-This is an async function, so the return value is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), but the Promise resolves to a [`JsonSchema` object](https://apitools.dev/json-schema-reader/docs/json-schema), which contains details about all the files, resources, anchors, and references in the schema.
+#### Return value ([`JsonSchema` object](docs/json-schema.md))
+This is an async function, so the return value is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), but the Promise resolves to a [`JsonSchema` object](docs/json-schema.md), which contains details about all the files, resources, anchors, and references in the schema.
 
 
 ### Documentation
-- [Understanding the structure of a schema](https://apitools.dev/json-schema-reader/docs/schema-structure)
-- [Options / Customization](https://apitools.dev/json-schema-reader/docs/options)
-- [Reading files from other sources](https://apitools.dev/json-schema-reader/docs/read-file)
-- [Supporting other file types](https://apitools.dev/json-schema-reader/docs/parse-file)
-- [Error handling](https://apitools.dev/json-schema-reader/docs/error-handling)
+- [Understanding the structure of a schema](docs/schema-structure.md)
+- [Options / Customization](docs/options.md)
+- [Reading files from other sources](docs/read-file.md)
+- [Supporting other file types](docs/parse-file.md)
+- [Error handling](docs/error-handling.md)
 
 
 
