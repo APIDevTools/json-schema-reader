@@ -147,6 +147,12 @@ This is an async function, so the return value is a [Promise](https://developer.
 
 ### Documentation
 - [Understanding the structure of a schema](docs/schema-structure.md)
+  - [JsonSchema](docs/json-schema.md)
+  - [File](docs/file.md)
+  - [Resource](docs/resource.md)
+  - [Anchor](docs/anchor.md)
+  - [Reference](docs/reference.md)
+  - [Pointer](docs/pointer.md)
 - [Options / Customization](docs/options.md)
 - [Reading files from other sources](docs/read-file.md)
 - [Supporting other file types](docs/parse-file.md)
