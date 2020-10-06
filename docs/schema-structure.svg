@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="2030px" height="1579px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-672,446)">
+        <text x="1791.42px" y="341.836px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;">types.json</text>
+        <text x="1791.42px" y="389.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">{</text>
+        <text x="1820.22px" y="413.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$defs&quot;: {</text>
+        <text x="1849.03px" y="437.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;Name&quot;: {</text>
+        <text x="1877.83px" y="461.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$anchor&quot;: &quot;name&quot;,</text>
+        <text x="1877.83px" y="485.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;title&quot;: &quot;Name&quot;,</text>
+        <text x="1877.83px" y="509.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;properties&quot;: {</text>
+        <text x="1906.64px" y="533.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;ﬁrst&quot;: { &quot;type&quot;: &quot;string&quot; },</text>
+        <text x="1906.64px" y="557.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;last&quot;: { &quot;type&quot;: &quot;string&quot; }</text>
+        <text x="1877.83px" y="581.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1849.03px" y="605.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">},</text>
+        <text x="1849.03px" y="629.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;Address&quot;: {</text>
+        <text x="1877.83px" y="653.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$anchor&quot;: &quot;address&quot;,</text>
+        <text x="1877.83px" y="677.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;title&quot;: &quot;Address&quot;,</text>
+        <text x="1877.83px" y="701.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;properties&quot;: {</text>
+        <text x="1906.64px" y="725.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;type&quot;: {</text>
+        <text x="1935.44px" y="749.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$ref&quot;: &quot;address-type&quot;</text>
+        <text x="1906.64px" y="773.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">},</text>
+        <text x="1906.64px" y="797.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;street&quot;: { &quot;type&quot;: &quot;string&quot; },</text>
+        <text x="1906.64px" y="821.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;city&quot;: { &quot;type&quot;: &quot;string&quot; },</text>
+        <text x="1906.64px" y="845.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;postalCode&quot;: { &quot;type&quot;: &quot;string&quot; }</text>
+        <text x="1877.83px" y="869.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1849.03px" y="893.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">},</text>
+        <text x="1849.03px" y="917.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;AddressType&quot;: {</text>
+        <text x="1877.83px" y="941.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$id&quot;: &quot;address-type&quot;,</text>
+        <text x="1877.83px" y="965.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$anchor&quot;: &quot;address-type&quot;,</text>
+        <text x="1877.83px" y="989.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;enum&quot;: [&quot;home&quot;, &quot;oﬃce&quot;]</text>
+        <text x="1849.03px" y="1013.84px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1820.22px" y="1037.84px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1791.42px" y="1061.84px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-672,-214)">
+        <text x="1791.42px" y="341.836px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;">schema.json</text>
+        <text x="1791.42px" y="389.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">{</text>
+        <text x="1820.22px" y="413.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$schema&quot;: &quot;https://json-schema.org/draft/2019-09/schema&quot;,</text>
+        <text x="1820.22px" y="437.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$id&quot;: &quot;person&quot;,</text>
+        <text x="1820.22px" y="461.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;title&quot;: &quot;Person&quot;,</text>
+        <text x="1820.22px" y="485.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;properties&quot;: {</text>
+        <text x="1849.03px" y="509.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;name&quot;: {</text>
+        <text x="1877.83px" y="533.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$ref&quot;: &quot;types.json#/$defs/Name&quot;</text>
+        <text x="1849.03px" y="557.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">},</text>
+        <text x="1849.03px" y="581.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;address&quot;: {</text>
+        <text x="1877.83px" y="605.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$ref&quot;: &quot;types.json#address&quot;</text>
+        <text x="1849.03px" y="629.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">},</text>
+        <text x="1849.03px" y="653.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;parent&quot;: {</text>
+        <text x="1877.83px" y="677.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">&quot;$ref&quot;: &quot;person&quot;</text>
+        <text x="1849.03px" y="701.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1820.22px" y="725.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+        <text x="1791.42px" y="749.836px" style="font-family:'CourierNewPSMT', 'Courier New', monospace;font-size:24px;">}</text>
+    </g>
+    <g id="Schema" transform="matrix(1,0,0,1,-1120,-169)">
+        <g transform="matrix(2.46606,0,0,3.2395,980.434,-66.6807)">
+            <path d="M499,84.729C499,81.015 495.039,78 490.16,78L65.84,78C60.961,78 57,81.015 57,84.729L57,547.271C57,550.985 60.961,554 65.84,554L490.16,554C495.039,554 499,550.985 499,547.271L499,84.729Z" style="fill:rgb(174,228,255);stroke:rgb(13,97,242);stroke-width:0.35px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,973,132)">
+            <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(90,128,255);">JsonSchema</text>
+        </g>
+        <g id="types.json" transform="matrix(1,0,0,1,0,660)">
+            <g transform="matrix(2.28959,0,0,1.59034,1029.49,149.954)">
+                <path d="M499,92.28C499,84.399 494.556,78 489.081,78L66.919,78C61.444,78 57,84.399 57,92.28L57,539.72C57,547.601 61.444,554 66.919,554L489.081,554C494.556,554 499,547.601 499,539.72L499,92.28Z" style="fill:rgb(174,255,178);stroke:rgb(0,142,7);stroke-width:0.51px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,1012,220)">
+                <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(0,163,8);">File</text>
+                <text x="466.667px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(0,163,8);">file://path/to/types.json</text>
+            </g>
+            <g id="Address-Type-Resource" serif:id="Address Type Resource" transform="matrix(1,0,0,1,0,430)">
+                <g transform="matrix(2.10407,0,0,0.428571,1083.07,326.571)">
+                    <path d="M499,92.28C499,84.399 497.697,78 496.091,78L59.909,78C58.303,78 57,84.399 57,92.28L57,539.72C57,547.601 58.303,554 59.909,554L496.091,554C497.697,554 499,547.601 499,539.72L499,92.28Z" style="fill:rgb(255,227,170);stroke:rgb(229,153,0);stroke-width:0.66px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1055,306)">
+                    <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(239,160,0);">Resource</text>
+                    <text x="423.46px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(239,160,0);">file://path/to/address-type</text>
+                </g>
+                <g id="Name-Anchor" serif:id="Name Anchor">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,432.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(252,240,255);stroke:rgb(234,149,255);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,392)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(238,168,255);">Anchor</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(238,168,255);">file://path/to/address-type#address-type</text>
+                    </g>
+                </g>
+            </g>
+            <g id="Root-Resource" serif:id="Root Resource">
+                <g transform="matrix(2.10407,0,0,0.840336,1083.07,294.454)">
+                    <path d="M499,92.28C499,84.399 496.444,78 493.297,78L62.703,78C59.556,78 57,84.399 57,92.28L57,539.72C57,547.601 59.556,554 62.703,554L493.297,554C496.444,554 499,547.601 499,539.72L499,92.28Z" style="fill:rgb(255,227,170);stroke:rgb(229,153,0);stroke-width:0.62px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1055,306)">
+                    <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(239,160,0);">Resource</text>
+                    <text x="423.46px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(239,160,0);">file://path/to/types.json</text>
+                </g>
+                <g id="Address-Type-Ref" serif:id="Address Type Ref">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,632.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(248,255,108);stroke:rgb(159,167,0);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,592)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(165,173,0);">Ref</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(165,173,0);">file://path/to/address-type</text>
+                    </g>
+                </g>
+                <g id="Address-Anchor" serif:id="Address Anchor" transform="matrix(1,0,0,1,0,100)">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,432.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(252,240,255);stroke:rgb(234,149,255);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,392)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(238,168,255);">Anchor</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(238,168,255);">file://path/to/types.json#address</text>
+                    </g>
+                </g>
+                <g id="Name-Anchor1" serif:id="Name Anchor">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,432.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(252,240,255);stroke:rgb(234,149,255);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,392)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(238,168,255);">Anchor</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(238,168,255);">file://path/to/types.json#name</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="schema.json">
+            <g transform="matrix(2.28959,0,0,1.31933,1029.49,171.092)">
+                <path d="M499,92.28C499,84.399 495.313,78 490.771,78L65.229,78C60.687,78 57,84.399 57,92.28L57,539.72C57,547.601 60.687,554 65.229,554L490.771,554C495.313,554 499,547.601 499,539.72L499,92.28Z" style="fill:rgb(174,255,178);stroke:rgb(0,142,7);stroke-width:0.54px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,1012,220)">
+                <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(0,163,8);">File</text>
+                <text x="466.667px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(0,163,8);">file://path/to/schema.json</text>
+            </g>
+            <g id="Person-Resource" serif:id="Person Resource">
+                <g transform="matrix(2.10407,0,0,1.05462,1083.07,277.739)">
+                    <path d="M499,92.28C499,84.399 495.793,78 491.842,78L64.158,78C60.207,78 57,84.399 57,92.28L57,539.72C57,547.601 60.207,554 64.158,554L491.842,554C495.793,554 499,547.601 499,539.72L499,92.28Z" style="fill:rgb(255,227,170);stroke:rgb(229,153,0);stroke-width:0.6px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1055,306)">
+                    <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(239,160,0);">Resource</text>
+                    <text x="423.46px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(239,160,0);">file://path/to/person</text>
+                </g>
+                <g id="Person-Ref" serif:id="Person Ref" transform="matrix(1,0,0,1,0,100)">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,632.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(248,255,108);stroke:rgb(159,167,0);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,592)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(165,173,0);">Ref</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(165,173,0);">file://path/to/person</text>
+                    </g>
+                </g>
+                <g id="Address-Ref" serif:id="Address Ref">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,632.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(248,255,108);stroke:rgb(159,167,0);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,592)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(165,173,0);">Ref</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(165,173,0);">file://path/to/types.json#address</text>
+                    </g>
+                </g>
+                <g id="Name-Ref" serif:id="Name Ref">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,532.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(248,255,108);stroke:rgb(159,167,0);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,492)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(165,173,0);">Ref</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(165,173,0);">file://path/to/types.json#/$defs/Name</text>
+                    </g>
+                </g>
+                <g id="Person-Anchor" serif:id="Person Anchor">
+                    <g transform="matrix(1.9276,0,0,0.170168,1134.13,432.727)">
+                        <path d="M499,101.8C499,88.664 498.059,78 496.899,78L59.101,78C57.941,78 57,88.664 57,101.8L57,530.2C57,543.336 57.941,554 59.101,554L496.899,554C498.059,554 499,543.336 499,530.2L499,101.8Z" style="fill:rgb(252,240,255);stroke:rgb(234,149,255);stroke-width:0.73px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1096,392)">
+                        <text x="185.822px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:36px;fill:rgb(238,168,255);">Anchor</text>
+                        <text x="380.253px" y="105.292px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:24px;fill:rgb(238,168,255);">file://path/to/person#person</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
