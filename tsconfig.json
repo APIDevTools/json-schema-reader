@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",   // TODO: Once Edge w/ Chromium goes GA, update this to "esnext"
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+
+    "outDir": "esm",
+    "sourceMap": true,
+    "declaration": true,
+
+    "newLine": "LF",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "stripInternal": true,
+
+    "typeRoots": [
+      "node_modules/@types",
+      "src/typings"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

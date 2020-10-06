@@ -1,0 +1,10 @@
+# Mocha options
+# https://mochajs.org/#configuring-mocha-nodejs
+# https://github.com/mochajs/mocha/blob/master/example/config/.mocharc.yml
+
+spec:
+  - test/specs/*spec.js      # Run the tests in the root folder first
+  - test/specs/**/*spec.js   # ...then run the tests in subfolders
+bail: true
+recursive: true
+require: source-map-support/register
