@@ -1,0 +1,27 @@
+{
+  "$defs": {
+    "nonEmptyString": {
+      "$id": "non-empty-string",
+      "$anchor": "Non Empty String",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "A string containing at least one non-whitespace character"
+    },
+    "person": {
+      "$ref": "person.json"
+    },
+    "name": {
+      "$ref": "person.json#name"
+    },
+    "age": {
+      "$ref": "age.json"
+    },
+    "address": {
+      "$ref": "address.json"
+    },
+    "company": {
+      "$ref": "company.xyz"
+    }
+  }
+}

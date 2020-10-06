@@ -1,0 +1,7 @@
+{
+  "$id": "child",
+  "properties": {
+    "name": { "type": "string" },
+    "parent": { "$ref": "parent.json" }
+  }
+}

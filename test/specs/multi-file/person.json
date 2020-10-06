@@ -1,0 +1,44 @@
+{
+  "$id": "person",
+  "title": "Person",
+  "type": "object",
+  "required": ["name", "age", "homeAddress"],
+  "properties": {
+    "name": {
+      "$anchor": "name",
+      "type": "object",
+      "required": ["first", "last"],
+      "properties": {
+        "first": {
+          "$ref": "non-empty-string",
+          "description": "The person's first name"
+        },
+        "middle": {
+          "$ref": "schema.json#non-empty-string",
+          "description": "The person's middle name, if any"
+        },
+        "last": {
+          "$ref": "schema.json#/$defs/nonEmptyString",
+          "description": "The person's last name"
+        }
+      }
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The person's age, in whole years"
+    },
+    "homeAddress": {
+      "$ref": "address.json",
+      "description": "The person's home address"
+    },
+    "workAddress": {
+      "$ref": "address.json#address",
+      "description": "The person's work address"
+    },
+    "schoolAddress": {
+      "$ref": "foo/bar/../../address.json",
+      "description": "The person's school address"
+    }
+  }
+}

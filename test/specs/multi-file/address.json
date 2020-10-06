@@ -1,0 +1,26 @@
+{
+  "$id": "address",
+  "$anchor": "address",
+  "title": "Address",
+  "type": "object",
+  "properties": {
+    "street": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "non-empty-string" },
+      "description": "Each line of the street address"
+    },
+    "city": {
+      "$ref": "schema.json#non-empty-string",
+      "description": "The name of the city or town"
+    },
+    "state": {
+      "$ref": "schema.json#/$defs/nonEmptyString",
+      "description": "The name of the state or province"
+    },
+    "postalCode": {
+      "$ref": "../../specs/multi-file/schema.json#non-empty-string",
+      "description": "The postal code (aka \"zip code\")"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$id": "parent",
+  "properties": {
+    "name": { "type": "string" },
+    "children": {
+      "type": "array",
+      "items": { "$ref": "child.json" }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$defs": {
+    "person": {
+      "$ref": "person.json"
+    },
+    "address": {
+      "$ref": "address.json"
+    }
+  }
+}
